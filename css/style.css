@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::before,
+::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: Montserrat, serif;
+    background-color: rgb(255, 255, 87);
+    display: grid;
+    min-height: 100vh;
+    line-height: 1.3;
+}
+
+
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    place-self: center;
+    align-items: center;
+    padding-inline: 100px;
+    width: 950px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+}
+.email-img{
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 121px;
+    left: 22px;
+    bottom: 43px;
+}
+.email-bg-wrapper{
+    padding: 10px;
+    border: 2px dashed aqua;
+    border-radius: 50%;
+}
+.email-bg{
+    z-index: 9;
+    background-color: aqua;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+h2{
+    font-size: 20px;
+}
+h2 p{
+    font-size: 50px;
+}
+p:last-of-type{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px 10px 10px 28px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: .2px solid rgb(187, 187, 187);
+    background-position: 7px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: yellow;
+    padding: 9px 153px;
+    border-radius: 8px;
+}
